@@ -1,16 +1,26 @@
 # port_scanner
 
-A new Flutter project.
+A simple Flutter application that allows you to scan ports on a given IP address.
+
+## Features
+
+- Enter the IP address and port range to scan.
+- Initiates the port scanning process using the `tcp_scanner` library.
+- Displays the scan status, scanned ports, open ports, and elapsed time.
+- Works on Android, iOS, Linux, MacOS, Windows
+### Prerequisites
+
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- `tcp_scanner` package
 
 ## Getting Started
+1.Clone the repository:
+git clone https://github.com/ahmadw13/port_scanner.git
 
-This project is a starting point for a Flutter application.
+2.Install dependencies:
+flutter pub add tcp_scanner
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. update flutter
+flutter pub get
+## Credits
+tcp_scanner: for the library
