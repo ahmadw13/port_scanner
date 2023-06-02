@@ -1,7 +1,7 @@
 # port_scanner
 
 A simple Flutter application that allows you to scan ports on a given IP address.
-
+My first ever real flutter project outside of uni
 ## Features
 
 - Enter the IP address and port range to scan.
